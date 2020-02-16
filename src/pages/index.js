@@ -12,16 +12,12 @@ import OurProject from "../components/ourproject"
 const IndexPage = () => (
   <Layout>
     <SEO title="Nhim Design" description="Test porfolio page"/>
-    <div id="main_content">
       <div className="col-xs-12">
           <BannerTop />
           <OurWork />
           <OurClient />
           <OurProject />
       </div>
-    </div>
-    <div className="modal fade" id="modalProject" role="dialog">
-    </div>
   </Layout>
 )
 

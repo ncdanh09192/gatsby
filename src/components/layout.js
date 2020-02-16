@@ -32,7 +32,7 @@ const Layout = ({ children }) => {
       <div className="container-fluid">
         <div className="row">
           <Header siteTitle={data.site.siteMetadata.title} />
-          <main>{children}
+          <main id="main_content">{children}
             <Footer />
           </main>
         </div>

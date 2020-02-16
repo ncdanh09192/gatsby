@@ -1,4 +1,5 @@
 import React from "react"
+import Slider from '@farbenmeer/react-spring-slider';
 
 const BannerTop = () => (
 <>

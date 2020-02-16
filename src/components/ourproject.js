@@ -1,13 +1,20 @@
 import React from "react";
+import Slider from '@farbenmeer/react-spring-slider';
 
-const OurClient = () => (
+const OurProject = () => (
 	<div className="row divProject">
-		<div className="owl-carousel owl-theme" id="owlGallery">
-		  <div className="item">
-		      <img src="http://nhim.design/upload/post/gallery/07052019220514.jpeg" className="img-responsive" alt="Nhim design"/>
-		  </div>
-		</div>
+		<Slider auto={3000} activeIndex={2}>
+				<div>
+				    <img src="http://nhim.design/upload/post/gallery/07052019220514.jpeg" className="img-responsive" alt="Nhim design"/>
+				</div>
+				<div>
+					<img src="http://nhim.design/upload/post/gallery/07052019220514.jpeg" className="img-responsive" alt="Nhim design"/>
+				</div>
+				<div>
+					<img src="http://nhim.design/upload/post/gallery/07052019220514.jpeg" className="img-responsive" alt="Nhim design"/>
+				</div>
+		</Slider>
 	</div>
 )
 
-export default OurClient
+export default OurProject

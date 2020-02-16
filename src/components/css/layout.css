@@ -87,6 +87,7 @@ body{font-size: 14px !important; font-family: JosefinSansRegular !important; col
 .divPartner .item img{transition: all 0.7s ease-in-out;}
 .divPartner .item img:hover{-webkit-transform: scale(1.3);-moz-transform: scale(1.3);-o-transform: scale(1.3);transform: scale(1.3);}
 .divProject .item{height: 500px; overflow: hidden;}
+.divProject {height: 500px; overflow: hidden;}
 .divProject .item img{width: 100%;cursor: pointer;position: absolute;top: -50%;bottom: -50%;margin-top: auto;margin-bottom: auto;}
 .bs-slider{overflow: hidden;position: relative;background: rgba(0, 0, 0, 0.8);}
 .bs-slider:hover {cursor: -moz-grab;cursor: -webkit-grab;}

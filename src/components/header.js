@@ -5,9 +5,9 @@ import React from "react"
 const Header = ({ siteTitle }) => (
   <header>
       <div id="header">
-          <div class="col-xs-12">
-              <ul class="nav nav-tabs">
-                  <li class="active">
+          <div className="col-xs-12">
+              <ul className="nav nav-tabs">
+                  <li className="active">
                       <a href="#home">Home</a>
                   </li>
                   <li>
@@ -20,13 +20,13 @@ const Header = ({ siteTitle }) => (
                       <a href="#contact">Contact</a>
                   </li>
               </ul>
-              <div class="social">
-                  <div class="col-xs-12 ec">
+              <div className="social">
+                  <div className="col-xs-12 ec">
                       <a target="_blank" href="http://gmail.com" rel="nofollow">
                           <img src="http://nhim.design/images/icon/email.png" title="Email: yennhinguyen102@gmail.com" alt="Email nhim design" />
                       </a>
                   </div>
-                  <div class="col-xs-12">
+                  <div className="col-xs-12">
                       <a target="_blank" href="https://www.facebook.com/nhinguyen.ds" rel="nofollow">
                           <img src="http://nhim.design/images/icon/facebook.png" title="Facebook: www.facebook.com/nhinguyen.ds" alt="Facebook nhim design" />
                       </a>
@@ -34,22 +34,22 @@ const Header = ({ siteTitle }) => (
               </div>
           </div>
       </div>
-      <div class="col-xs-12 nav-section visible-xs">
-          <div class="row">
-              <nav class="navbar navbar-default">
-                  <div class="navbar-header">
-                      <div class="col-xs-12">
-                          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-menu" aria-expanded="false">
+      <div className="col-xs-12 nav-section visible-xs">
+          <div className="row">
+              <nav className="navbar navbar-default">
+                  <div className="navbar-header">
+                      <div className="col-xs-12">
+                          <button type="button" className="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-menu" aria-expanded="false">
                               <img src="http://nhim.design/images/icon/menu.png" />
                           </button>
-                          <div class="mt-20">
-                              <img src="http://nhim.design/upload/post/logo/22082019101427.png" class="logo" alt="logo nhim" />
+                          <div className="mt-20">
+                              <img src="http://nhim.design/upload/post/logo/22082019101427.png" className="logo" alt="logo nhim" />
                           </div>
                       </div>
                   </div>
-                  <div class="collapse navbar-collapse" id="bs-menu">
-                      <ul class="nav navbar-nav navbar-right">
-                          <li class="active">
+                  <div className="collapse navbar-collapse" id="bs-menu">
+                      <ul className="nav navbar-nav navbar-right">
+                          <li className="active">
                               <a href="#home">Home</a>
                           </li>
                           <li>
